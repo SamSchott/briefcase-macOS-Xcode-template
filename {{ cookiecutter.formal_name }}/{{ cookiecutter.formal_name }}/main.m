@@ -35,9 +35,8 @@ int main(int argc, char *argv[]) {
 
         NSString * resourcePath = [[NSBundle mainBundle] resourcePath];
 
-        // Special environment to prefer .pyo; also, don't write bytecode
+        // Special environment to prefer .pyo; also, dont write bytecode
         // because the process will not have write permissions on the device.
-        putenv("PYTHONOPTIMIZE=1");
         putenv("PYTHONDONTWRITEBYTECODE=1");
         putenv("PYTHONUNBUFFERED=1");
 

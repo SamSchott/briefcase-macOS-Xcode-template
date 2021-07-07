@@ -6,5 +6,6 @@
     "bundle": "com.example",
     "version": "1.0",
     "build": "1",
-    "document_types": {}
+    "document_types": {},
+    "agent": 0
 }

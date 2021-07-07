@@ -24,6 +24,8 @@
 	<string>{{ cookiecutter.build }}</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.14</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © {% now 'utc', '%Y' %} {{ cookiecutter.author }}. All rights reserved.</string>
 	<key>NSMainStoryboardFile</key>
 	<string>Main</string>
 	<key>NSPrincipalClass</key>
